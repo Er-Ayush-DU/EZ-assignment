@@ -16,7 +16,7 @@
   - "Form Submitted!" success message
 - **Polaroid-style services** with detail pages
 - **Highlight Reel**, **Team & Portfolio**, **About Us** sections
-- **No border/shadow** on header (as per design)
+
 
 ---
 
