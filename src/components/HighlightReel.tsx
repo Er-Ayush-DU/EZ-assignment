@@ -13,7 +13,7 @@ export default function HighlightReel() {
 
       {/* Video Frame */}
       <div className="max-w-4xl mx-auto px-4">
-        <div className="relative bg-white p-6 rounded-lg shadow-xl">
+        <div className="relative bg-white p-6 rounded-lg shadow-xl border-4 border-yellow-500">
           {/* Film Strip Top */}
           <div className="absolute top-0 left-0 right-0 h-8 bg-white border-b-4 border-dashed border-gray-300 flex justify-between px-4">
             {Array.from({ length: 6 }).map((_, i) => (
@@ -23,14 +23,20 @@ export default function HighlightReel() {
 
           {/* Video Content */}
           <div className="relative mt-8 aspect-video bg-black rounded overflow-hidden">
-            {/* Replace with real YouTube/Vimeo embed in production */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-red-600 rounded-full w-16 h-16 flex items-center justify-center cursor-pointer hover:scale-110 transition">
-                <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+            {/* YouTube Play Button - Centered */}
+            <div className="absolute inset-0 flex items-center justify-center z-10">
+              <button className="bg-red-600 rounded-full w-20 h-20 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300">
+                <svg
+                  className="w-10 h-10 text-white ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path d="M8 5v14l11-7z" />
                 </svg>
-              </div>
+              </button>
             </div>
+
             {/* Placeholder Image */}
             <Image
               src="/highlight-video.jpg"
@@ -47,18 +53,22 @@ export default function HighlightReel() {
             ))}
           </div>
 
-          {/* Left/Right Arrows */}
-          <button className="absolute left-4 top-1/2 -translate-y-1/2 text-4xl text-gray-700 hover:text-orange-600">
-            Less than
+          {/* Left Arrow */}
+          <button className="absolute left-[-20px] top-1/2 -translate-y-1/2 text-5xl text-gray-800 hover:text-orange-600 transition">
+            {"<"}
           </button>
-          <button className="absolute right-4 top-1/2 -translate-y-1/2 text-4xl text-gray-700 hover:text-orange-600">
-            Greater than
+
+          {/* Right Arrow */}
+          <button className="absolute right-[-20px] top-1/2 -translate-y-1/2 text-5xl text-gray-800 hover:text-orange-600 transition">
+            {">"}
           </button>
         </div>
       </div>
 
       {/* Decorative Icons */}
-      <div className="absolute left-10 top-20 text-6xl opacity-20 text-orange-600">Camera</div>
+      <div className="absolute left-10 top-20 opacity-20">
+        <Image src="/camera.svg" alt="" width={100} height={100} />
+      </div>
       <div className="absolute right-10 bottom-20 opacity-20">
         <Image src="/rangoli-right.svg" alt="" width={120} height={120} />
       </div>
