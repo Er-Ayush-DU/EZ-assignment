@@ -43,8 +43,7 @@
   "message": "Hello i am a full stack developer"
 }
 
-```md
-**Open Postman Collection**:  
-```bash
+## Postman Collection — **Direct Import Link (100% Working)**
 
-curl -L https://raw.githubusercontent.com/Er-Ayush-DU/EZ-assignment/refs/heads/main/Postman/EZ_Labs_Contact_API.postman_collection.json
+**Click to Import in Postman**:  
+[Open in Postman](https://www.postman.com/collection-importer?collection-url=entityId%3D123456%26entityType%3Dcollection%26source%3Dgithub%26file%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FEr-Ayush-DU%2FEZ-assignment%2Frefs%2Fheads%2Fmain%2FPostman%2FEZ_Labs_Contact_API.postman_collection.json)
