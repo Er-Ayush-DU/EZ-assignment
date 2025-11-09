@@ -43,8 +43,10 @@
   "message": "Hello i am a full stack developer"
 }
 
----
 
+```
+
+---
 
 ## Postman Collection — **Direct Import Link (100% Working)**
 
