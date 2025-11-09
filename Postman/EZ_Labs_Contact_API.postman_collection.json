@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "e65cd164-ecf5-4a49-aafb-b55729c52c1f",
+		"name": "EZ Labs Contact API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44058395"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ayush Tiwari\",\r\n    \"email\": \"er.ayush336@gmail.com\",\r\n    \"phone\": \"9260932458\",\r\n    \"message\": \"I am a full stack developer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
