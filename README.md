@@ -51,9 +51,9 @@
 ## Postman Collection — **Direct Import Link (100% Working)**
 
 **Click to Import in Postman**:  
-[Open in Postman](https://github.com/Er-Ayush-DU/EZ-assignment/blob/main/Postman/EZ_Labs_Contact_API.postman_collection.json)
+[click and copy the url](https://github.com/Er-Ayush-DU/EZ-assignment/blob/main/Postman/EZ_Labs_Contact_API.postman_collection.json)
 
-**Import in Postman (Paste this in Postman → Import → Link)**
+**Import in Postman (Paste this link(url) in Postman → Import → Link)**
 
 ---
 
