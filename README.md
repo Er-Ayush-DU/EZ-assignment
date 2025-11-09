@@ -42,3 +42,9 @@
   "phone": "1234567890",
   "message": "Hello i am a full stack developer"
 }
+
+```md
+**Open Postman Collection**:  
+```bash
+
+curl -L https://raw.githubusercontent.com/Er-Ayush-DU/EZ-assignment/refs/heads/main/Postman/EZ_Labs_Contact_API.postman_collection.json
