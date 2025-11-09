@@ -1,7 +1,7 @@
 # V Films — EZ Labs Assignment
 
-**Live Website**: [https://vfilms.vercel.app](https://vfilms.vercel.app)  
-**GitHub**: [https://github.com/yourusername/vfilms](https://github.com/yourusername/vfilms)  
+**Live Website**: [https://ez-vfilms.vercel.app](https://ez-vfilms.vercel.app)  
+**GitHub**: [https://github.com/Er-Ayush-DU/EZ-assignment](https://github.com/Er-Ayush-DU/EZ-assignment)  
 **Deployed on**: Vercel
 
 ---
