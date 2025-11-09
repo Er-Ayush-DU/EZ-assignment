@@ -52,3 +52,19 @@
 
 **Click to Import in Postman**:  
 [Open in Postman](https://www.postman.com/collection-importer?collection-url=entityId%3D123456%26entityType%3Dcollection%26source%3Dgithub%26file%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FEr-Ayush-DU%2FEZ-assignment%2Frefs%2Fheads%2Fmain%2FPostman%2FEZ_Labs_Contact_API.postman_collection.json)
+
+---
+
+
+**PDF Documentation**:  
+[Download PDF](https://github.com/Er-Ayush-DU/EZ-assignment/blob/main/Postman/Contact_API_Documentation.pdf)
+
+---
+
+## Run Locally
+
+```bash
+git clone https://github.com/Er-Ayush-DU/EZ-assignment.git
+cd EZ-assignment
+npm install
+npm run dev
